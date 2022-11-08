@@ -7,7 +7,6 @@ export default function FetchingDataFromAnApi() {
 
   const fetchNextUser = () => {
     setPageNumber(pageNumber + 1);
-     console.log(userInformation);
      
   };
 
