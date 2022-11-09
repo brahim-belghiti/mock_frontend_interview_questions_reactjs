@@ -40,9 +40,11 @@
   color: #888;
 }
 
-.usersCards {
-  display: flex;
-  justify-content: space-evenly;
+.userCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  max-width: 300px;
   gap: 6px;
 }
 
